@@ -1,4 +1,3 @@
+## 🔗 Link Para Mezclar Colores:
 
-## LINK Para Mezclar Colores
-
-<button><a href="https://united-colors-vite-jvs4wdyn8-tobiassl.vercel.app/"></a>united colors</button>
+[[Abrir App weather]](https://united-colors-vite-jvs4wdyn8-tobiassl.vercel.app/)
