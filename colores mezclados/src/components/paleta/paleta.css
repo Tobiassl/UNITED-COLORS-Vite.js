@@ -1,0 +1,142 @@
+.paleta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .paleta + .paleta {
+    margin-top: 0px;
+  }
+  
+  .color-box {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #383838;
+  }
+
+  .paleta .color-box:hover {
+    box-shadow: 0 0 10px 2px rgb(255, 255, 255);
+    transition: box-shadow 0.2s ease-in-out;
+  }
+
+  .mezcla{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  .btn {
+    background-color: #040810;
+    color: #C7C7C7;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    overflow: hidden;
+    position: relative;
+    border: 3px double #2D6FBB;
+    z-index: 1;
+  }
+  
+  .btn::before {
+    content: "";
+    background-color: #2D6FBB;
+    transform: translateX(-100%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: all 0.2s;
+    z-index: -1;
+  }
+  
+  .btn:hover::before {
+    transform: translateX(0);
+  }
+  
+  .btn::after {
+    content: "";
+    background-color: #2D6FBB;
+    transform: translateX(100%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: all 0.5s;
+    z-index: -1;
+  }
+  
+  .btn:hover::after {
+    transform: translateX(0);
+  }
+
+  div.color-box {
+    margin: 0 auto;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    text-align: center;
+  }
+  
+  .numero{
+    padding-top: 65px;
+    text-transform: uppercase;
+  }
+
+  .limpiar{
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .btn2 {
+    background-color: #040810;
+    color: #C7C7C7;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    overflow: hidden;
+    position: relative;
+    border: 3px double #F94144;
+    z-index: 1;
+  }
+  
+  .btn2::before {
+    content: "";
+    background-color: #F94144;
+    transform: translateX(-100%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: all 0.2s;
+    z-index: -1;
+  }
+  
+  .btn2:hover::before {
+    transform: translateX(0);
+  }
+  
+  .btn2::after {
+    content: "";
+    background-color: #F94144;
+    transform: translateX(100%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: all 0.5s;
+    z-index: -1;
+  }
+  
+  .btn2:hover::after {
+    transform: translateX(0);
+  }
